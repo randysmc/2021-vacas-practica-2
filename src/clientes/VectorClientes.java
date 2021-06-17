@@ -34,7 +34,7 @@ public class VectorClientes {
     public void mostrarClientes(){
         System.out.println("\n\n Clientes de memorabilia");
         for (int i = 0; i < (siguienteCodigo-1); i++) {
-            System.out.println("-"+i+") "+clientes[i].getInformacion());
+            System.out.println("-"+i+") "+clientes[i].getInformacionC());
             //System.out.println("-"+i+") "+clientes[i].getId() + " nombre "+clientes[i].getNombre()+ " telefono "+clientes[i].getTelefono());
             
         }

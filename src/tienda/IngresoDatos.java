@@ -8,7 +8,9 @@ public class IngresoDatos {
     private static void imprimirMensaje(String mensaje){
         System.out.print("\n"+mensaje+" ");
     }
-
+    /***
+     * Los metodos static sirven para invocar metodos o atributos de otra clase sin hacer una instancia de ella
+     */
     public static int getEntero(String mensaje, boolean negativo){
         imprimirMensaje(mensaje);
         int tmp = scanner.nextInt();
