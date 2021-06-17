@@ -43,7 +43,7 @@ public class VectorClientes {
     }
 
 
-    //Ordenamiento
+    //Ordenamiento metodo burbuja
     public void ordenarPorNombre(boolean ascendente){
         boolean cambio = true;
 

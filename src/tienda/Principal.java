@@ -60,6 +60,13 @@ public class Principal {
                 //mostrar Peliculas 
                 tablaPeliculas.mostrarPeliculas();
             }
+            if(menu ==7){
+                ///ordenamiento peliculas
+                tablaPeliculas.ordenarPorNombre();
+                tablaPeliculas.mostrarPeliculas();
+                
+            }
+
 
         }
 
